@@ -1,0 +1,20 @@
+.ImgAndDateCreationPost {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.ImgAndDateCreationPost img {
+    width: 70px;
+    clip-path: circle();
+}
+
+.ImgAndDateCreationPostContent p {
+    font-size:1.2rem;
+    margin-bottom: 0;
+    margin-left: 30px;
+    font-family: Inter, sans-serif;
+}
+.ImgAndDateCreationPostContent p:first-child {
+    font-weight: bold;
+
+}

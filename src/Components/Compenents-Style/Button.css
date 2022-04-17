@@ -1,0 +1,22 @@
+button {
+    width: 139px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    border: none;
+    justify-content: center;
+    margin-right: 20px;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+button img {
+    width: 24px;
+}
+
+@media screen and (max-width: 800px) {
+    button {
+    width: 105px;
+    height: 40px;
+    }
+}

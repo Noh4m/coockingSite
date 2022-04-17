@@ -1,0 +1,70 @@
+.heroContainer {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 1440px ;
+}
+.heroCardFloatLeft {
+    width: 40px;
+    height: 465px;
+    background-color: #E7F9FD;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-right: 40px;
+}
+.heroCardFloatRight {
+    width: 40px;
+    height: 465px;
+    background-color: #E7F9FD;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 40px;
+}
+.heroCard {
+    width: 1280px;
+    padding: 50px;
+    height: fit-content;
+    border-radius: 50px;
+    background-color: #E7F9FD;
+
+}
+.heroCard h1{
+    font-size: 64px;
+    font-family: Inter, sans-serif;
+    margin-bottom: 30px;
+}
+.heroCard p{
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    line-height: 23px;
+    margin-bottom: 30px;
+    max-width: 520px;
+}
+
+@media screen and (max-width: 800px) {
+    .heroCardFloatRight,
+    .heroCardFloatLeft {
+        display: none;
+    }
+    .heroContainer {
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+        margin: 0 5%;
+    }
+    .heroCard {
+        margin: 0 auto;
+        max-width: 570px;
+        padding: 50px;
+        height: fit-content;
+        border-radius: 50px;
+        background-color: #E7F9FD;
+
+    }
+    .heroCard h1{
+        font-size: 32px;
+        font-family: Inter, sans-serif;
+        margin-bottom: 30px;
+    }
+}
