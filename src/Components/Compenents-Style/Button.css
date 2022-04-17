@@ -16,7 +16,9 @@ button img {
 
 @media screen and (max-width: 800px) {
     button {
+
     width: 105px;
     height: 40px;
+
     }
 }
