@@ -1,0 +1,25 @@
+.test {
+    width: 180px;
+    height: 150px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    margin-right: 20px ;
+
+}
+.test:hover {
+    transition: 0.35s;
+    box-shadow: 8px 17px 30px -11px rgba(0,0,0,0.41);
+}
+.test a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.test img {
+    width: 100px;
+    padding-left: 25px;
+}

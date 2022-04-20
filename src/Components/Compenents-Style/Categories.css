@@ -1,0 +1,26 @@
+.categoriesContainer {
+    margin: 0 5%;
+    font-family: Inter, sans-serif;
+    padding-bottom: 100px;
+}
+.categoriesContent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.categoriesContent h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+.categoriesContent button {
+    width: 200px;
+    height: 60px;
+    float: right;
+}
+.CatListing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
