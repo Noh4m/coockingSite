@@ -1,0 +1,68 @@
+.TitleAndSubTitle {
+    margin: 0 5%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 96px;
+}
+.TitleAndSubTitle h1 {
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+.TitleAndSubTitle p {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    max-width: 706px;
+}
+
+.CardRecipeContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.CardRecipeContainer h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    margin-left: 24px;
+}
+.CardRecipeContainer:hover {
+    transition: 0.35s;
+    box-shadow: 8px 17px 30px -11px rgba(0,0,0,0.41);
+}
+.CardRecipeImg:hover {
+    transform: scale(1.5);
+}
+.CardRecipeImg {
+    overflow: hidden;
+    border-radius: 30px;
+    width: 100%;
+    margin-bottom: 24px;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.zoom {
+    overflow: hidden;
+    transition: 0.3s ease-in-out ;
+    border-radius: 30px;
+    height: 266px;
+    margin-bottom: 14px;
+
+}
+
+/* BUUTON */
+
+.CardRecipeButton{
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+}
