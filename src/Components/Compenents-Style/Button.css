@@ -10,6 +10,10 @@ button {
     align-items: center;
     margin-bottom: 30px;
 }
+button:hover {
+    transition: 0.35s;
+    box-shadow: 8px 17px 30px -11px rgba(0,0,0,0.41);
+}
 button img {
     width: 24px;
 }
