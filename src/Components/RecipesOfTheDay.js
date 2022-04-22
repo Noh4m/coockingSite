@@ -10,7 +10,7 @@ function RecipesOfTheDay(props) {
                               subTitle="Lorem ipsum dolor sit amet, consectetuipisicing elit,
                               sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim"/>
             <div className="cardRecipes">
-                {data.slice(0, 4).map((data) =>(
+                {data.slice(0, 9).map((data) =>(
                     <CardRecipe key={data.id} recipe={data.nameRecipe} img={data.img}  categories={data.categories} timeCooking={data.timeCooking}/>
                 ))}
             </div>
